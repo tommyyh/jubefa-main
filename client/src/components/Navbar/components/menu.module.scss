@@ -1,0 +1,218 @@
+@import '../../../assets/scss/variables.scss';
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  right: -110%;
+  top: 0;
+  padding: 0 0 5rem 0;
+  
+  background: $menu;
+  transition: 340ms ease;
+}
+
+.menu-open {
+  right: 0;
+}
+
+// Main group
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+}
+
+// Top section
+.top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 3.7rem;
+
+  padding: 0 $padding;
+
+  h4 {
+    margin: 0.7rem 0 0 0;
+    padding: 0.35rem 1rem 0.48rem 1rem;
+
+    color: $menu;
+    font-size: 1rem;
+    font-weight: 500;
+    background: $primary;
+    border-radius: 4rem;
+  }
+}
+
+// Links
+.links {
+  padding: 3rem 0 0 2.5rem;
+
+  li {
+    margin: 0.67rem 0 0 0;
+
+    list-style-type: none;
+    font-size: 1.82rem;
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary;
+  }
+}
+
+// Aside info
+.aside {
+  padding: 0 0 0 2.5rem;
+
+  & li {
+    width: fit-content;
+
+    font-size: 1.2rem;
+    list-style-type: none;
+
+    &:last-child {
+      padding: 0.684rem 1.7rem;
+      margin: 0.6rem 0 0 0;
+
+      font-size: 1.1rem;
+      background: $primary;
+      border-radius: 50px;
+      color: $btn-color;
+      font-weight: 400;
+    }
+
+    &:first-child {
+      margin: 0 0 1rem 0rem;
+      position: relative;
+
+      font-size: 1.22rem;
+      color: $primary;
+      font-weight: 500;
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 15px;
+        width: 40%;
+        height: 2px;
+
+        background: $primary;
+      }
+    }
+  }
+}
+
+// Languages options
+.language-options {
+  display: flex;
+  width: fit-content;
+
+  margin: 0.6rem 0 0 0;
+  
+  border: 2px solid $primary;
+  border-radius: 49px;
+
+  & img {
+    height: 1.73rem;
+    width: 2.6rem;
+  }
+
+  & a {
+    padding: 0.533rem 1.1rem;
+    position: relative;
+
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: $primary;
+    text-decoration: none;
+    border-left: 1.99px solid $primary;
+
+    // To separate border from edge
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0.6rem;
+      height: 0.6rem;
+      right: -0.35rem;
+      top: 0;
+      z-index: 5;
+
+      background: $menu;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 0.6rem;
+      height: 0.6rem;
+      right: -0.35rem;
+      bottom: 0;
+      z-index: 5;
+
+      background: $menu;
+    }
+
+    // Other modifications
+    &:first-child {
+      padding: 0.533rem 1rem 0.533rem 1.35rem;
+      border-left: none;
+    }
+
+    &:last-child {
+      padding: 0.533rem 1.35rem 0.533rem 1rem;
+
+      &::before {
+        all: initial;
+      }
+      
+      &::after {
+        all: initial;
+      }
+    }
+  }
+}
+
+// Open state of the menu
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  padding: 3rem 0 0 0;
+  height: 100%;
+  
+  opacity: 0;
+  transition: 300ms ease-in;
+  transition-delay: -1s;
+}
+
+.menu-content-visible {
+  opacity: 100%;
+
+  transition: 300ms ease-in;
+  transition-delay: 0.4s;
+}
+
+.menu-open {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+
+  border-radius: 0;
+}
+
+// Sell cta
+.sell-cta a {
+  text-decoration: none;
+  color: $menu;
+  font-weight: 500;
+}

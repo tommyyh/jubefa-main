@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import 'assets/scss/reset.scss';
 import { useSelector } from 'react-redux';
+import Navbar from 'components/Navbar/Navbar';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -18,7 +19,7 @@ const Home = () => {
 
   return (
     <>
-      <h1>Home page</h1>
+      <Navbar lang={lang} langCode={langCode} />
     </>
   );
 };

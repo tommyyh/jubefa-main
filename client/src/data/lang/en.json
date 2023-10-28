@@ -3,5 +3,33 @@
     "company": "Jubefa",
     "tel": "+49 351 27501899",
     "email": "kontakt@jubefa.com"
+  },
+  "nav": {
+    "title": "Jubefa",
+    "close": "close",
+    "tel": "+49 351 27501899",
+    "cta": "Real Estate Recycling",
+    "links": {
+      "1": {
+        "title": "Home",
+        "link": "",
+        "type": "home"
+      },
+      "2": {
+        "title": "Constructions",
+        "link": "https://www.jubefa-constructions.com/de",
+        "type": "new"
+      },
+      "3": {
+        "title": "Real Estate",
+        "link": "https://www.jubefa-immobilien.de/de",
+        "type": "new"
+      },
+      "4": {
+        "title": "Contact",
+        "link": "contact",
+        "type": "normal"
+      }
+    }
   }
 }
