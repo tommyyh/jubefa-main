@@ -1,227 +1,76 @@
 @import '../../../assets/scss/variables.scss';
 
 .landing {
-  padding: 10.8rem + 4.6rem $padding 0 $padding;
+  padding: 9.5rem 0 0 0;
 
-  // Subtitle
-  & h3 {
-    margin: 0 0 2.5px 0;
-
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: $text;
-    font-family: $general-font;
+  h4 {
+    @include sub;
   }
 
-  // Title
-  & h1 {
-    margin: 0.23rem 0 0 0;
-    max-width: 22.18rem;
-
-    font-size: 1.86rem;
-    font-weight: 700;
-    color: $title-lighter;
-    letter-spacing: -1.2px;
+  h1 {
+    @include title;
     
-    & span:last-child {
-      display: flex;
-      justify-content: flex-end;
+    margin: 0 3rem 1.5rem 0;
 
-      width: 100%;
-    }
+    font-size: 2.1rem;
+  }
+
+  a {
+    padding: 0.72rem 1.1rem;
+
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: $primary;
+    background: $accent;
+    text-decoration: none;
+    border-radius: 15rem;
   }
 }
 
-// CTA
-.cta {
+.content {
+  padding: 0 $padding;
+}
+
+// Images
+.images {
+  margin: 3.15rem 0 0 0;
+  overflow-x: hidden;
+
+  box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
+}
+
+.row1, .row2 {
   display: flex;
 
-  padding: 0.8rem 0 0 0;
-
-  text-decoration: none;
-
-  // Chevron main
-  & .cta-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 5.27rem;
-    height: 5.27rem;
-    margin: 0 0 0 0.73rem;
-
-    background: $accent;
-    border-radius: 50%;
+  img {
+    box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
   }
 }
 
-// Bubble
-.cta-bubble {
-  padding: 0 0 0 1.6rem;
+.row1 {
+  img {
+    width: 14.44rem;
+    height: 9.31rem;
 
-  // Main
-  & h4 {
-    width: fit-content;
-    padding: 0.46rem 1.42rem;
-    margin: 0.73rem 0 0 0;
+    object-fit: cover;
 
-    font-family: $general-font;
-    font-weight: 500;
-    font-size: 0.79rem;
-    color: $btn-text;
-    background: $accent;
-    border-radius: 3.1rem;
-  }
-
-  & .cta-dot {
-    width: 8px;
-    height: 8px;
-    margin: -1px 0 0 -2.9px;
-    position: relative;
-
-    background: $accent;
-    border-radius: 50%;
-
-    &::before, &::after {
-      content: '';
-      position: absolute;
-      width: 6px;
-      height: 6px;
-      margin: -0.9px 0 0 -2.76px;
-      left: -4.2px;
-      bottom: -4.2px;
-  
-      background: $accent;
-      border-radius: 50%;
-    }
-
-    &::after {
-      width: 4px;
-      height: 4px;
-      left: -9.2px;
-      bottom: -7.5px;
+    &:first-child {
+      margin: 0 0.69rem 0 -0.8rem;
     }
   }
 }
 
-// Desktop view
-@media all and (min-width: 1025px) {
-  .cont {
-    @include center;
-  }
-
-  .landing {
-    display: grid;
-    grid-template-columns: 68% 32%;
+.row2 {
+  margin: 0.69rem 0 0 0;
+  
+  img {
+    width: 15.69rem;
+    height: 8.5rem;
     
-    width: $width;
-    padding: 16rem $padding2 0 $padding2;
-  
-    // Subtitle
-    & h3 {
-      margin: 0 0 2.5px 0;
-  
-      font-size: 0.98rem;
-      font-weight: 400;
-      color: $text2;
-      font-family: $general-font;
-    }
-  
-    // Title
-    & h1 {
-      margin: -0.4rem 0 0 -4px;
-      max-width: initial;
-  
-      font-size: 4rem;
-      font-weight: 600;
-      color: $title;
-      letter-spacing: -1.4px;
-      
-      & span:last-child {
-        display: flex;
-        justify-content: flex-end;
-  
-        width: 100%;
-      }
-    }
-  }
-  
-  // CTA
-  .cta {
-    display: flex;
-  
-    padding: 0rem 0 0 0;
-    margin: 1.3rem 0 0 2.3rem;
-  
-    text-decoration: none;
-  
-    // Chevron main
-    & .cta-main {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
-      width: 8.25rem;
-      height: 8.25rem;
-      margin: 0 0 0 0.73rem;
-  
-      background: $accent;
-      border-radius: 50%;
+    object-fit: cover;
 
-      & img {
-        transform: scale(1.65);
-      }
+    &:first-child {
+      margin: 0 0.69rem 0 -2rem;
     }
   }
-  
-  // Bubble
-  .cta-bubble {
-    padding: 0 0 0 1.6rem;
-    margin: -2.55rem 0 0 -1rem;
-  
-    // Main
-    & h4 {
-      width: fit-content;
-      padding: 0.46rem 1.42rem;
-      margin: 0.73rem 0 0 0;
-  
-      font-family: $general-font;
-      font-weight: 500;
-      font-size: 0.79rem;
-      color: $btn-text;
-      background: $accent;
-      border-radius: 3.1rem;
-    }
-  
-    & .cta-dot {
-      width: 8px;
-      height: 8px;
-      margin: -1px 0 0 -2.9px;
-      position: relative;
-  
-      background: $accent;
-      border-radius: 50%;
-  
-      &::before, &::after {
-        content: '';
-        position: absolute;
-        width: 6px;
-        height: 6px;
-        margin: -0.9px 0 0 -2.76px;
-        left: -4.2px;
-        bottom: -4.2px;
-    
-        background: $accent;
-        border-radius: 50%;
-      }
-  
-      &::after {
-        width: 4px;
-        height: 4px;
-        left: -9.2px;
-        bottom: -7.5px;
-      }
-    }
-  }
-
 }

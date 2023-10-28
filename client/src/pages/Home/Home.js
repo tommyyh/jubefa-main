@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import 'assets/scss/reset.scss';
 import { useSelector } from 'react-redux';
 import Navbar from 'components/Navbar/Navbar';
+import Landing from './components/Landing';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -20,6 +21,7 @@ const Home = () => {
   return (
     <>
       <Navbar lang={lang} langCode={langCode} />
+      <Landing lang={lang} langCode={langCode} />
     </>
   );
 };

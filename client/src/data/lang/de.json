@@ -31,5 +31,14 @@
         "type": "normal"
       }
     }
+  },
+  "landing": {
+    "sub": "Real Estate Agents",
+    "title": "Searching For A Real Estate Agent? Look No further",
+    "text": "If you are looking for a real estate agent or a project developer, then you are in the right place. With a lot of experience and the best possible prices we will get you the best deal possible.",
+    "cta": {
+      "title": "Get Started Today",
+      "link": "contact"
+    }
   }
 }

@@ -13,3 +13,20 @@ $menu: #0C0A0B;
 
 // Positioning
 $padding: 1.03rem;
+
+
+
+
+// Mixins (Styling presets to save a lot of time)
+@mixin sub {
+  font-size: 0.93rem;
+  font-weight: 400;
+  color: $accent3;
+}
+
+@mixin title {
+  font-size: 1.94rem;
+  font-weight: 700;
+  color: $second;
+  line-height: 116%;
+}
