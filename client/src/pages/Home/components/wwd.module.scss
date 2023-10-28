@@ -1,0 +1,19 @@
+@import '../../../assets/scss/variables.scss';
+
+.wwd {
+  padding: 6rem $padding 0 $padding;
+
+  h4 {
+    @include sub;
+  }
+
+  h2 {
+    @include title;
+
+    margin: 0 3rem 1.6rem 0;
+  }
+
+  p {
+    @include text;
+  }
+}

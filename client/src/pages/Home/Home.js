@@ -3,6 +3,7 @@ import 'assets/scss/reset.scss';
 import { useSelector } from 'react-redux';
 import Navbar from 'components/Navbar/Navbar';
 import Landing from './components/Landing';
+import Wwd from './components/Wwd';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ const Home = () => {
     <>
       <Navbar lang={lang} langCode={langCode} />
       <Landing lang={lang} langCode={langCode} />
+      <Wwd lang={lang} langCode={langCode} />
     </>
   );
 };

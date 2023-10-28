@@ -8,6 +8,7 @@ $accent: #2B6944;
 $accent2: #83764C;
 $accent3: #1F2F26;
 $btn-color: #fff;
+$text: rgba(18, 18, 18, 0.75);
 
 $menu: #0C0A0B;
 
@@ -29,4 +30,11 @@ $padding: 1.03rem;
   font-weight: 700;
   color: $second;
   line-height: 116%;
+}
+
+@mixin text {
+  font-size: 0.94rem;
+  font-weight: 400;
+  color: $text;
+  line-height: 150%;
 }
