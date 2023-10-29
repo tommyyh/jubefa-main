@@ -45,5 +45,29 @@
     "sub": "What we do?",
     "title": "Professional Real Estate Agents and Project Developers.",
     "text": "We are a company in the real estate industry with headquarters in Dresden. We are real estate agents & project developers and we will support you in the construction, renovation of buildings and selling existing properties. We bring a lot more expertise than traditional brokers, since we know all sides of the industry."
+  },
+  "services": {
+    "1": {
+      "title": "Jubefa Immobilien",
+      "text": "Would you like to sell your property in a legally secure manner and at the best possible price?",
+      "cta": {
+        "title": "Brokage Office",
+        "linkTo": "https://www.jubefa-immobilien.de/de",
+        "blank": "true"
+      },
+      "icon1": "house",
+      "icon2": "tags"
+    },
+    "2": {
+      "title": "Jubefa Constructions",
+      "text": "Would you like to plan, renovate or build new with us? Look no further and contasct us!",
+      "cta": {
+        "title": "Project Development",
+        "linkTo": "https://www.jubefa-constructions.com/de",
+        "blank": "true"
+      },
+      "icon1": "gear",
+      "icon2": "hammer"
+    }
   }
 }

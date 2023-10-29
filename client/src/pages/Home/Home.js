@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import Navbar from 'components/Navbar/Navbar';
 import Landing from './components/Landing';
 import Wwd from './components/Wwd';
+import Services from './components/Services';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ const Home = () => {
       <Navbar lang={lang} langCode={langCode} />
       <Landing lang={lang} langCode={langCode} />
       <Wwd lang={lang} langCode={langCode} />
+      <Services lang={lang} langCode={langCode} />
     </>
   );
 };

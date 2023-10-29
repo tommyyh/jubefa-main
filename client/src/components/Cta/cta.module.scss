@@ -1,0 +1,33 @@
+@import '../../assets/scss/variables.scss';
+
+.cta {
+  display: flex;
+  align-items: center;
+
+  color: $accent;
+  text-underline-offset: 3.2px;
+
+  h5 {
+    margin: -2px 0 0 0.5rem;
+
+    font-size: 1rem;
+  }
+}
+
+// Illustration
+.illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1.87rem;
+  height: 1.87rem;
+
+  background: $accent;
+  border-radius: 50%;
+
+  img {
+    width: 0.98rem;
+    height: 0.98rem;
+  }
+}
