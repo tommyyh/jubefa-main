@@ -98,5 +98,31 @@
         "text": "Our previous customers are very satisfied and we are sure you will be too. We are very flexible and gladly satisfy your needs and requests."
       }
     }
+  },
+  "reviews": {
+    "sub": "Our reviews",
+    "title": "Here’s what our previous clients say about us",
+    "list": {
+      "1": {
+        "author": "Roberto Hoppe",
+        "text": "Herr Flade vermittelt Sicherheit und wirkt sehr engagiert. Für einen Makler ist er ziemlich bodenständig und sympathisch.Immer wieder eine große Freude mit im zu Arbeiten.",
+        "rating": "5.0"
+      },
+      "2": {
+        "author": "Silvio Gutwald",
+        "text": "Wir können nur positiv von Jubefa GmbH berichten. Herr Flade hat sich von Anfang an als sehr engagiert und voller Tatendrang gezeigt. Mit klarem Konzept und sehr kompetent erledigte er seine Arbeit zur vollsten Zufriedenheit und wir würden sehr gern wieder auf Ihn zurückgreifen. Recht herzlichen Dank noch einmal.",
+        "rating": "5.0"
+      },
+      "3": {
+        "author": "Philipp Marschner",
+        "text": "Professionelle und zügige Beratung. Mir wurde eine schnelle individuelle Lösung für meine Immobilie angeboten.",
+        "rating": "5.0"
+      },
+      "4": {
+        "author": "Dan Brä",
+        "text": "Kompetente und zwangslose Beratung mit Herrn F., gerne wieder!",
+        "rating": "5.0"
+      }
+    }
   }
 }

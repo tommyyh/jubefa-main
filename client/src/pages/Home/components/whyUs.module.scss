@@ -53,10 +53,14 @@
 
     background: linear-gradient(
       180deg,
-      rgba(251, 251, 251, 0.9) 60.58%,
+      rgba(240, 240, 240, 0.9) 60.58%,
       rgba(228, 228, 228, 0.3) 88.7%,
-      rgba(251, 251, 251, 0.9) 93.85%
+      rgba(237, 237, 237, 0.9) 93.85%
     );
+  }
+
+  &:last-child::before {
+    all: initial;
   }
 }
 

@@ -7,6 +7,7 @@ import Wwd from './components/Wwd';
 import Services from './components/Services';
 import Sell from './components/Sell';
 import WhyUs from './components/WhyUs';
+import Reviews from 'components/Reviews/Reviews';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -30,6 +31,7 @@ const Home = () => {
       <Services lang={lang} langCode={langCode} />
       <Sell lang={lang} langCode={langCode} />
       <WhyUs lang={lang} langCode={langCode} />
+      <Reviews lang={lang} langCode={langCode} />
     </>
   );
 };

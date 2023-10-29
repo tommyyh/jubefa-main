@@ -1,0 +1,76 @@
+@import '../../assets/scss/variables.scss';
+
+.reviews {
+  padding: 10rem $padding 0 $padding;
+
+  h4 {
+    @include sub;
+  }
+
+  h2 {
+    @include title;
+
+    margin: 0 4rem 0 0;
+  }
+}
+
+// Reviews
+.reviews {
+  margin: 4rem 0 0 0;
+}
+
+// Review
+.review {
+  width: 100%;
+  padding: 0 1.8rem 3rem 1.8rem;
+  margin: 4rem 0 0 0;
+
+  box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.18);
+  border-radius: 1.05rem;
+
+  .profile {
+    width: 6.13rem;
+    height: 6.13rem;
+    margin: -1.7rem 0 0 0;
+
+    box-shadow: 0px 9px 21px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+  }
+
+  // Bottom half
+  h6 {
+    margin: 2rem 0 0 0;
+
+    font-size: 1.3rem;
+    color: $accent;
+    font-weight: 400;
+  }
+}
+
+// Text
+.text {
+  padding: 0 0.9em 0 0;
+  margin: 1.5em 0 0 0;
+  max-height: 8em;
+  overflow-y: scroll;
+
+  p {
+    margin: 0.55rem 0 0 0;
+    font-size: 1rem;
+    color: $text;
+  }
+}
+
+.author {
+  display: flex;
+  align-items: flex-start;
+
+  margin: 1.2rem 0 0 0;
+
+  color: $second;
+  text-decoration: none;
+
+  h5 {
+    font-size: 1.22rem;
+  }
+}
