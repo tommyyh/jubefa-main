@@ -1,0 +1,47 @@
+@import '../../../assets/scss/variables.scss';
+
+.sell {
+  h4 {
+    @include sub;
+  }
+
+  h2 {
+    @include title;
+
+    margin: 0 0 1.6rem 0;
+  }
+
+  p {
+    @include text;
+  }
+
+  a {
+    margin: 2.15rem 0 0 0;
+  }
+}
+
+.content {
+  padding: 10rem $padding 0 $padding;
+}
+
+// Images
+.images {
+  display: flex;
+  
+  overflow-x: hidden;
+  margin: 3rem 0 0 0;
+
+  box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
+
+  img {
+    width: 24.13rem;
+    height: 13.88rem;
+
+    object-fit: cover;
+    box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
+
+    &:first-child {
+      margin: 0 0.69rem 0 -14.2rem;
+    }
+  }
+}

@@ -69,5 +69,34 @@
       "icon1": "gear",
       "icon2": "hammer"
     }
+  },
+  "sell": {
+    "sub": "Want to sell a property?",
+    "title": "Do you have a property that you would like to get rid of quickly and easily?",
+    "text": "We exploit properties that no one wants to have anymore due to their condition, location or history. You can view us as a “recycling yard” for such properties and simply submit your property to us.",
+    "cta": {
+      "title": "Submit Property",
+      "linkTo": "https://www.jubefa-immobilien.de/en/sell-property",
+      "blank": "true"
+    }
+  },
+  "whyUs": {
+    "sub": "Why choose us?",
+    "title": "Get The Best Deal Possible From Experienced Experts",
+    "text": "Being ahead of your competition is one of the most important things you need, in order to have a successful and thriving business. Our sales-driven approach will help your business rise above the others and ultimately get more leads.",
+    "reasons": {
+      "1": {
+        "title": "Creative & Sales-driven Design",
+        "text": "Our breathtaking and sales-driven design focuses on catching the visitors attention, leading to more potential customers and sales."
+      },
+      "2": {
+        "title": "Persuasive Design & Typography",
+        "text": "Our focus is having persuasive design and typography. These are essential to winning customer’s trust and getting more conversions."
+      },
+      "3": {
+        "title": "Trust & Credibility",
+        "text": "Our previous customers are very satisfied and we are sure you will be too. We are very flexible and gladly satisfy your needs and requests."
+      }
+    }
   }
 }
