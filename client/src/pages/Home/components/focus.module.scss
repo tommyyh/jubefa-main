@@ -1,0 +1,19 @@
+@import '../../../assets/scss/variables.scss';
+
+.focus {
+  padding: 10rem $padding 0 $padding;
+
+  h4 {
+    @include sub;
+  }
+
+  h2 {
+    @include title;
+
+    margin: 0 2rem 1.6rem 0;
+  }
+
+  p {
+    @include text;
+  }
+}

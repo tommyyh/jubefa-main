@@ -27,8 +27,8 @@
       },
       "4": {
         "title": "Contact",
-        "link": "contact",
-        "type": "normal"
+        "link": "https://www.jubefa-immobilien.de/de",
+        "type": "new"
       }
     }
   },
@@ -124,5 +124,47 @@
         "rating": "5.0"
       }
     }
+  },
+  "focus": {
+    "sub": "You are our priority!",
+    "title": "Customer Satisfaction Is Our Upmost Number 1 Priority",
+    "text": "We are a company in the real estate industry with headquarters in Dresden. We are real estate agents & project developers and we will support you in the construction, renovation of buildings and selling existing properties. We bring a lot more expertise than traditional brokers, since we know all sides of the industry."
+  },
+  "footer": {
+    "cta": {
+      "title": "Are you ready to profit from your property or get a new one?",
+      "cta": {
+        "title": "Get Started Today",
+        "linkTo": "https://www.jubefa-immobilien.de/de",
+        "blank": "true"
+      }
+    },
+    "title": "Jubefa",
+    "links1": {
+      "1": {
+        "title": "Home",
+        "linkTo": "",
+        "blank": "false"
+      },
+      "2": {
+        "title": "Imprint",
+        "linkTo": "https://www.jubefa-immobilien.de/de/imprint",
+        "blank": "true"
+      },
+      "3": {
+        "title": "Contact",
+        "linkTo": "https://www.jubefa-immobilien.de/de",
+        "blank": "true"
+      }
+    },
+    "links2": {
+      "1": "Email: kontakt@jubefa.com",
+      "2": "Tel: +49 351 27501899"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "input": "Email Address"
+    },
+    "copyright": "© Copyright 2023 JubefaGmbH. All rights reserved"
   }
 }

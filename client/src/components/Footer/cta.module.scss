@@ -1,0 +1,44 @@
+@import '../../assets/scss/variables.scss';
+
+.cta {
+  width: 100%;
+  padding: 2.8rem $padding + 0.5rem;
+
+  background: $accent4;
+  border-radius: 1.05rem;
+  box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.71);
+
+  h2 {
+    margin: 0 2rem 0 0;
+
+    font-size: 1.38rem;
+    color: $btn-color;
+    text-shadow: 0px 4px 49px rgba(255, 255, 255, 0.44);
+    font-weight: 500;
+    line-height: 121.5%;
+    text-transform: capitalize;
+  }
+
+  a {
+    margin: 1.69rem 0 0 0;
+
+    color: $accent5;
+    text-shadow: 0px 4px 21px rgba(255, 255, 255, 0.35);
+
+    div {
+      width: 2rem;
+      height: 2rem;
+
+      background: $accent5;
+
+      img {
+        filter: brightness(20%);
+      }
+    }
+
+    h5 {
+      font-size: 1.05rem;
+      font-weight: 400;
+    }
+  }
+}

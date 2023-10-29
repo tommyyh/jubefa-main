@@ -37,7 +37,12 @@ const Menu = ({ l, langCode, menuOpen, setMenuOpen }) => {
           <ul>
             <li>{l.tel}</li>
             <li className={css['sell-cta']}>
-              <Link to={`/${langCode}/contact`}>{l.cta}</Link>
+              <Link
+                target='_blank'
+                to={`https://www.jubefa-immobilien.de/de/sell-property`}
+              >
+                {l.cta}
+              </Link>
             </li>
           </ul>
 

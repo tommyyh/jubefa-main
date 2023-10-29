@@ -8,6 +8,8 @@ import Services from './components/Services';
 import Sell from './components/Sell';
 import WhyUs from './components/WhyUs';
 import Reviews from 'components/Reviews/Reviews';
+import Focus from './components/Focus';
+import Footer from 'components/Footer/Footer';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -32,6 +34,8 @@ const Home = () => {
       <Sell lang={lang} langCode={langCode} />
       <WhyUs lang={lang} langCode={langCode} />
       <Reviews lang={lang} langCode={langCode} />
+      <Focus lang={lang} langCode={langCode} />
+      <Footer lang={lang} langCode={langCode} />
     </>
   );
 };
