@@ -1,0 +1,75 @@
+@import '../../../assets/scss/variables.scss';
+
+.middle {
+  li {
+    display: inline-block;
+    
+    font-size: 0.98rem;
+  }
+
+  a {
+    padding: 0.65rem 1.07rem;
+
+    color: $accent4;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 7px;
+    transition: ease 300ms;
+
+    &:hover {
+      background: #ececec;
+    }
+  }
+}
+
+.aside {
+  display: flex;
+  align-items: center;
+
+  li {
+    display: inline-block;
+    
+    font-size: 0.98rem;
+  }
+
+  a {
+    padding: 0.65rem 1.07rem;
+
+    color: $accent4;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 7px;
+    transition: ease 300ms;
+
+    &:hover {
+      background: #ececec;
+    }
+  }
+}
+
+// Language option
+.language-options {
+  a {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+}
+
+// Sell cta
+.sell-cta {
+  padding: 0.684rem 0.4rem;
+
+  font-size: 0.9rem !important;
+  background: $accent3;
+  border-radius: 50px;
+  color: $btn-color;
+  font-weight: 400;
+
+  a {
+    color: $btn-color;
+  }
+
+  &:hover a {
+    background: $accent3;
+  }
+}

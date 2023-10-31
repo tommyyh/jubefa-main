@@ -16,9 +16,9 @@ $menu: #0C0A0B;
 
 // Positioning
 $padding: 1.03rem;
-
-
-
+$padding2: 2.4rem;
+$width: 1268px;
+$height: 646px;
 
 // Mixins (Styling presets to save a lot of time)
 @mixin sub {
@@ -39,4 +39,13 @@ $padding: 1.03rem;
   font-weight: 400;
   color: $text;
   line-height: 150%;
+}
+
+// Layout
+@mixin center {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  width: 100%;
 }
