@@ -5,17 +5,26 @@ const WhyUs = ({ lang, langCode }) => {
   const l = lang.whyUs;
 
   return (
-    <section className={css['whyUs']}>
-      <h4>{l.sub}</h4>
-      <h2>{l.title}</h2>
-      <p>{l.text}</p>
+    <div className={css['cont']}>
+      <section className={css['whyUs']}>
+        <div className={css['outer-content']}>
+          <div className={css['content']}>
+            <div>
+              <h4>{l.sub}</h4>
+              <h2>{l.title}</h2>
+            </div>
 
-      <div className={css['reasons']}>
-        {Object.keys(l.reasons).map((item, i) => (
-          <Reason lang={lang} item={item} key={i} />
-        ))}
-      </div>
-    </section>
+            <p>{l.text}</p>
+          </div>
+        </div>
+
+        <div className={css['reasons']}>
+          {Object.keys(l.reasons).map((item, i) => (
+            <Reason lang={lang} item={item} key={i} />
+          ))}
+        </div>
+      </section>
+    </div>
   );
 };
 

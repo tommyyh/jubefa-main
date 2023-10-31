@@ -98,3 +98,123 @@
 
   opacity: 1;
 }
+
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center
+  }
+
+  .whyUs {
+    width: $width;
+    padding: 13rem 0 0 0;
+  
+    h4 {
+      @include sub2;
+    }
+  
+    h2 {
+      @include title2;
+  
+      margin: 0 3rem 1.6rem 0;
+    }
+  
+    p {
+      @include text2;
+
+      margin: 1.4rem 0 0 1rem;
+    }
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 50% 58%;
+    width: 67%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  
+  // Reasons
+  .reasons {
+    display: flex;
+    margin: 3em 0 0 0;
+  
+    border-radius: 2.44em;
+    box-shadow: 0px 4px 73px 0px rgba(0, 0, 0, 0.14);
+  }
+  
+  // Reason
+  .reason {
+    padding: 2.66rem 3.3rem;
+    position: relative;
+  
+    h3 {
+      color: var(--second);
+      font-size: 1.28em;
+      font-weight: 500;
+    }
+  
+    p {
+      margin: 0.7em 0 0 0;
+  
+      font-size: 1.07em;
+    }
+  
+    &::before {
+      content: '';
+      position: absolute;
+      right: 0;
+      left: initial;
+      bottom: 0;
+      width: 2px;
+      height: 100%;
+  
+      background: linear-gradient(
+        180deg,
+        rgba(239, 239, 239, 0.9) 60.58%,
+        rgba(236, 236, 236, 0.3) 88.7%,
+        rgba(239, 239, 239, 0.9) 93.85%
+      );
+    }
+  
+    &:last-child::before {
+      all: initial;
+    }
+  }
+  
+  // Cta
+  .cta {
+    display: flex;
+    align-items: center;
+  
+    transform: scale(0);
+    padding: 0;
+    position: absolute;
+  
+    background: var(--cta-bg);
+    border-radius: 0.4em;
+    transition: 250ms ease;
+    opacity: 0;
+    text-decoration: none;
+  
+    img {
+      margin: 0 0 0 0.5em;
+      width: 0.44em;
+    }
+  
+    h5 {
+      white-space: nowrap;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: var(--cta-title);
+    }
+  }
+  
+  .cta-active {
+    padding: 0.6em 1.1em;
+    transform: scale(1);
+  
+    opacity: 1;
+  }
+
+}
