@@ -37,13 +37,13 @@
   overflow-x: hidden;
 
   box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
+  background: #d7d7d7;
 }
 
 .row1, .row2 {
   display: flex;
 
   img {
-    box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
   }
 }
 
@@ -73,4 +73,108 @@
       margin: 0 0.69rem 0 -2rem;
     }
   }
+}
+
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center;
+  }
+
+  .landing {
+    width: $width;
+    padding: 9.5rem 0 0 0;
+  
+    h4 {
+      @include sub;
+    }
+  
+    h1 {
+      @include title;
+      
+      margin: 0 13rem 1.5rem 0;
+  
+      font-size: 2.7rem;
+    }
+  
+    a {
+      padding: 0.8rem 1.7rem;
+  
+      font-size: 0.93rem;
+      font-weight: 500;
+      color: $primary;
+      background: $accent;
+      text-decoration: none;
+      border-radius: 15rem;
+    }
+
+    p {
+      margin: 1.1rem 5rem 2.05rem 0;
+
+      color: $text;
+      font-size: 1.07rem;
+      line-height: 148%;
+    }
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 52% 48%;
+
+    padding: 0 $padding2;
+  }
+  
+  // Images
+  .img-cont {
+    @include center;
+
+    width: 100%;
+  }
+
+  .images {
+    display: flex;
+    margin: 1.8rem 0 0 0;
+    overflow-x: hidden;
+  
+    box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
+    // box-shadow: initial;
+    background: initial;
+  }
+  
+  .row1, .row2 {
+    display: flex;
+  
+    img {
+      box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
+      // box-shadow: initial;
+    }
+  }
+  
+  .row1 {
+    img {
+      width: 35.31rem;
+      height: 22.75rem;
+  
+      object-fit: cover;
+  
+      &:first-child {
+        margin: 0 1.4rem 0 -7rem;
+      }
+    }
+  }
+  
+  .row2 {
+    margin: initial;
+    
+    img {
+      width: 35.31rem;
+      height: 22.75rem;
+      
+      object-fit: cover;
+  
+      &:first-child {
+        margin: 0 1.4rem 0 1.4rem;
+      }
+    }
+  }
+
 }

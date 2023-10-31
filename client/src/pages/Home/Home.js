@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
       <Navbar lang={lang} langCode={langCode} isDesktop={isDesktop} />
-      <Landing lang={lang} langCode={langCode} />
+      <Landing lang={lang} langCode={langCode} isDesktop={isDesktop} />
       <Wwd lang={lang} langCode={langCode} />
       <Services lang={lang} langCode={langCode} />
       <Sell lang={lang} langCode={langCode} />
