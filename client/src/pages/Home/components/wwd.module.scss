@@ -17,3 +17,34 @@
     @include text;
   }
 }
+
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center;
+  }
+
+  .wwd {
+    display: grid;
+    grid-template-columns: 42% 55%;
+
+    width: $width;
+    padding: 11rem $padding2 + 1rem 0 $padding2 + 9rem;
+  
+    h4 {
+      @include sub2;
+    }
+  
+    h2 {
+      @include title2;
+  
+      margin: 0.2rem 3rem 1.6rem 0;
+    }
+    
+    p {
+      @include text2;
+
+      margin: 1.2rem 0 0 0;
+    }
+  }
+
+}

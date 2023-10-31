@@ -6,11 +6,13 @@ const Services = ({ lang, langCode }) => {
   const l = lang.services;
 
   return (
-    <section className={css['services']}>
-      {Object.keys(l).map((item, i) => (
-        <Service lang={lang} item={item} langCode={langCode} key={i} />
-      ))}
-    </section>
+    <div className={css['cont']}>
+      <section className={css['services']}>
+        {Object.keys(l).map((item, i) => (
+          <Service lang={lang} item={item} langCode={langCode} key={i} />
+        ))}
+      </section>
+    </div>
   );
 };
 
