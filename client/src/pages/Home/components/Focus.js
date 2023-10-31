@@ -5,11 +5,16 @@ const Focus = ({ lang, langCode }) => {
   const l = lang.focus;
 
   return (
-    <section className={css['focus']}>
-      <h4>{l.sub}</h4>
-      <h2>{l.title}</h2>
-      <p>{l.text}</p>
-    </section>
+    <div className={css['cont']}>
+      <section className={css['focus']}>
+        <div>
+          <h4>{l.sub}</h4>
+          <h2>{l.title}</h2>
+        </div>
+
+        <p>{l.text}</p>
+      </section>
+    </div>
   );
 };
 

@@ -6,10 +6,12 @@ const Cta = ({ lang, langCode }) => {
   const l = lang.footer.cta;
 
   return (
-    <div className={css['cta']}>
-      <h2>{l.title}</h2>
+    <div className={css['cont']}>
+      <div className={css['cta']}>
+        <h2>{l.title}</h2>
 
-      <CtaLink linkTo={l.cta.linkTo} text={l.cta.title} blank={l.cta.blank} />
+        <CtaLink linkTo={l.cta.linkTo} text={l.cta.title} blank={l.cta.blank} />
+      </div>
     </div>
   );
 };

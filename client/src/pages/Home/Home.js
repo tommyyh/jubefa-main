@@ -11,6 +11,7 @@ import WhyUs from './components/WhyUs';
 import Reviews from 'components/Reviews/Reviews';
 import Focus from './components/Focus';
 import Footer from 'components/Footer/Footer';
+import Loading from 'components/Loading/Loading';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -22,12 +23,12 @@ const Home = () => {
 
   useEffect(() => {
     if (lang) {
-      setLoading(false);
+      setLoading(false); // Set to true to edit Loading screen
     }
   }, [lang]);
 
   // if (loading) return <Loading />;
-  if (loading) return <h1>LOADING...</h1>;
+  if (loading) return <Loading />;
 
   return (
     <>
@@ -39,7 +40,7 @@ const Home = () => {
       <WhyUs lang={lang} langCode={langCode} />
       <Reviews lang={lang} langCode={langCode} />
       <Focus lang={lang} langCode={langCode} />
-      <Footer lang={lang} langCode={langCode} />
+      <Footer lang={lang} langCode={langCode} isDesktop={isDesktop} />
     </>
   );
 };

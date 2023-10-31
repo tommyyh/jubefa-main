@@ -107,3 +107,126 @@
     }
   }
 }
+
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center;
+  }
+
+  .footer {
+    margin: 12.5rem $padding2 0 $padding2;
+  }
+  
+  // Main part of the footer
+  .main {
+    width: $width + 200px;
+    padding: $padding2 + 0.4rem $padding2 + 2.8rem;
+    margin: 1.2rem 0 0 0;
+  
+    box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.22);
+    border-top-right-radius: 1.05rem;
+    border-top-left-radius: 1.05rem;
+  
+    h6 {
+      margin: 13rem 0 5px 0;
+  
+      list-style-type: none;
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: $second;
+    }
+  }
+  
+  // Title
+  .title {
+    display: flex;
+    align-items: center;
+  
+    text-decoration: none;
+  
+    img {
+      width: 3.6rem;
+  
+      filter: brightness(70%);
+    }
+  
+    h2 {
+      margin: 0 0 0 0.26em;
+  
+      color: $accent2;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+  
+  // Links
+  .footer-links {
+    display: grid;
+    grid-template-columns: 20% 33% 34%;
+    justify-content: space-between;
+
+    margin: 1.5rem 0 0 0;
+  }
+  
+  .links {
+    margin: 0rem 0 0 0;
+  
+    li {
+      margin: 0.55rem 0 0 0;
+  
+      list-style-type: none;
+      font-size: 1.1rem;
+    }
+  
+    a {
+      color: $second;
+      text-decoration: none;
+    }
+  }
+  
+  // Newsletter
+  .newsletter {
+    margin: 0rem 0 0 0;
+  
+    h5 {
+      list-style-type: none;
+      font-size: 1.08rem;
+      font-weight: 400;
+      color: $second;
+    }
+  
+    input {
+      margin: 0.5rem 0 0 0;
+      width: 15.69rem;
+      height: 2.81rem;
+      padding: 0 1.3rem;
+  
+      border-radius: 4rem;
+      background: transparent;
+      border: #99A19C 2px solid;
+      font-size: 0.85rem;
+      color: $second;
+  
+      &::placeholder {
+        font-size: 0.85rem;
+      }
+    }
+  
+    button {
+      width: 2.88rem;
+      height: 2.88rem;
+      margin: 0 0 0 0.5rem;
+  
+      border-radius: 50%;
+      border: none;
+      background: $accent;
+  
+      & img {
+        margin: 0.13rem 0 0 0;
+        width: 1.1rem;
+      }
+    }
+  }
+
+}
