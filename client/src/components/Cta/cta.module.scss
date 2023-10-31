@@ -31,3 +31,38 @@
     height: 0.98rem;
   }
 }
+
+@media all and (min-width: 1025px) {
+  .cta {
+    display: flex;
+    align-items: center;
+  
+    color: $accent;
+    text-underline-offset: 3.2px;
+  
+    h5 {
+      margin: -2px 0 0 0.7rem;
+  
+      font-size: 1.1rem;
+    }
+  }
+  
+  // Illustration
+  .illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.1rem;
+    height: 2.1rem;
+  
+    background: $accent;
+    border-radius: 50%;
+  
+    img {
+      width: 0.98rem;
+      height: 0.98rem;
+    }
+  }
+  
+}

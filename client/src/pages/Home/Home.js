@@ -35,7 +35,7 @@ const Home = () => {
       <Landing lang={lang} langCode={langCode} isDesktop={isDesktop} />
       <Wwd lang={lang} langCode={langCode} />
       <Services lang={lang} langCode={langCode} />
-      <Sell lang={lang} langCode={langCode} />
+      <Sell lang={lang} langCode={langCode} isDesktop={isDesktop} />
       <WhyUs lang={lang} langCode={langCode} />
       <Reviews lang={lang} langCode={langCode} />
       <Focus lang={lang} langCode={langCode} />

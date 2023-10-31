@@ -9,6 +9,7 @@
     @include title;
 
     margin: 0 0 1.6rem 0;
+    text-transform: capitalize;
   }
 
   p {
@@ -44,4 +45,71 @@
       margin: 0 0.69rem 0 -14.2rem;
     }
   }
+}
+
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center;
+  }
+
+  .sell {
+    width: $width;
+
+    h4 {
+      @include sub2;
+    }
+  
+    h2 {
+      @include title2;
+  
+      margin: 0 0 1.6rem 0;
+    }
+  
+    p {
+      @include text2;
+
+      margin: 1.68rem 0 0 0;
+    }
+  
+    a {
+      margin: 1.9rem 0 0 0;
+    }
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 45% 49%;
+    padding: 15rem $padding2 0 $padding2;
+
+    margin: 0 0 0 6rem;
+  }
+
+  .content-right {
+    margin: 0 0 0 2.9rem;
+  }
+  
+  // Images
+  .images {
+    display: flex;
+    
+    overflow-x: hidden;
+    margin: 3rem 0 0 0;
+  
+    // box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
+    box-shadow: initial;
+    
+    img {
+      width: 39.56rem;
+      height: 22.75rem;
+      
+      object-fit: cover;
+      // box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.30);
+      box-shadow: initial;
+  
+      &:first-child {
+        margin: 0 0.69rem 0 0rem;
+      }
+    }
+  }
+
 }
