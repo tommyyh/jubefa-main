@@ -1,0 +1,52 @@
+@import '../../../assets/scss/variables.scss';
+
+.landing {
+  padding: 6.2rem $padding 6px $padding;
+}
+
+// Content
+.landing {
+  & h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+  }
+
+  & p {
+    margin: 0.2rem 0 0 0;
+
+    font-size: 0.94rem;
+    color: $text;
+    font-weight: 300;
+  }
+}
+
+// Desktop view
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center;
+  }
+
+  .landing {
+    width: $width;
+    padding: 8rem $padding2 6px $padding2;
+  }
+  
+  // Content
+  .landing {
+    & h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 2rem;
+    }
+  
+    & p {
+      margin: 0.59rem 50% 0 0;
+  
+      font-size: 0.87rem;
+      color: $text;
+      line-height: 1.45rem;
+      font-weight: 300;
+    }
+  }
+}

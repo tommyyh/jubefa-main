@@ -77,7 +77,7 @@
 
   input {
     margin: 0.5rem 0 0 0;
-    width: 15.69rem;
+    width: 75%;
     height: 2.81rem;
     padding: 0 1.3rem;
 
@@ -93,8 +93,9 @@
   }
 
   button {
-    width: 2.88rem;
-    height: 2.88rem;
+    width: 2.81rem;
+    min-width: 2.81rem;
+    height: 2.81rem;
     margin: 0 0 0 0.5rem;
 
     border-radius: 50%;

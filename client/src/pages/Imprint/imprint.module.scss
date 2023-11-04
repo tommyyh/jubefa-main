@@ -1,0 +1,38 @@
+@import '../../assets/scss/variables.scss';
+
+.source {
+  margin: 4rem $padding 0 $padding;
+
+  font-size: 1.12rem;
+  font-weight: 400;
+  color: $text;
+
+  & span {
+    color: $accent;
+    font-weight: 500;
+  }
+}
+
+// Desktop view
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center;
+  }
+
+  .source-inner {
+    width: $width;
+  }
+
+  .source {
+    margin: 4rem $padding2 0 $padding2;
+  
+    font-size: 1.12rem;
+    font-weight: 400;
+    color: $text;
+  
+    & span {
+      color: $accent;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@import '../../../assets/scss/variables.scss';
+
+.section {
+  padding: 3rem $padding 0 $padding;
+}
+
+// Content
+.section {
+  & h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  & ul {
+    margin: 0.3rem 0 0 0;
+  }
+
+  & li {
+    margin: 1px 0 0 0.93rem;
+
+    list-style-type: '•  ';
+    color: $text;
+    font-weight: 300;
+    font-size: 0.95rem;
+    word-wrap: break-word;
+  }
+
+  & a {
+    color: $accent;
+    font-weight: 500;
+  }
+}
+
+// Desktop view
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center;
+  }
+  
+  .section {
+    width: $width;
+    padding: 3rem $padding2 0 $padding2;
+  }
+  
+  // Content
+  .section {
+    & h2 {
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  
+    & ul {
+      margin: 0.3rem 0 0 0;
+    }
+  
+    & li {
+      margin: 1px 0 0 0.93rem;
+  
+      list-style-type: '•  ';
+      color: $text;
+      font-weight: 300;
+      font-size: 0.9rem;
+      word-wrap: break-word;
+    }
+  
+    & a {
+      color: $accent;
+      font-weight: 500;
+    }
+  }
+}

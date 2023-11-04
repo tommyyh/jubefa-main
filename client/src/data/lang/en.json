@@ -166,5 +166,74 @@
       "input": "Email Address"
     },
     "copyright": "© Copyright 2023 JubefaGmbH. All rights reserved"
+  },
+  "imprint": {
+    "title": "JubefaGmbH · Imprint",
+    "intro": "The Imprint page provides legal information about JubefaGmbH, including our company details and contact information. It is required by German law to have an Imprint page for companies operating in Germany.",
+    "source": "Source:",
+    "section1": {
+      "title": "According to § 5 TMG",
+      "points": {
+        "1": "Jubefa GmbH",
+        "2": "Alttrachau, 34",
+        "3": "01139 Dresden",
+        "4": "Commercial Register: HRB 40190",
+        "5": "Registration court: District Court of Dresden"
+      }
+    },
+    "section2": {
+      "title": "Represented by:",
+      "points": {
+        "1": "Justus-Konrad Flade",
+        "2": "Officer: Bettina Elfriede Judith Flade"
+      }
+    },
+    "section3": {
+      "title": "Contact",
+      "points": {
+        "1": "Phone: +49 351 27501899",
+        "2": "Web: www.JUBEFA.com",
+        "3": "E-mail: kontakt@jubefa-immobilien.de"
+      }
+    },
+    "section4": {
+      "title": "Tax ID",
+      "points": {
+        "1": "DE331990871"
+      }
+    },
+    "section5": {
+      "title": "Supervisory authority",
+      "points": {
+        "1": "Trade Office Dresden",
+        "2": "Regulatory Office, Dept. Commercial Affairs",
+        "3": "PO Box 120020",
+        "4": "01001 Dresden",
+        "5": "https://www.dresden.de/de/rathaus/aemter-und-einrichtungen/oe/dborg/stadt_dresden_6330.php",
+        "6": "Responsible for the content according to § 55 Abs. 2 RStV",
+        "7": "Jubefa Ltd",
+        "8": "Alttrachau 34",
+        "9": "01001 Dresden",
+        "10": "01139 Dresden"
+      }
+    },
+    "section6": {
+      "title": "EU Dispute Settlement",
+      "text": "The European Commission provides a platform for online dispute resolution (OS): ",
+      "text2": ". Our e-mail address can be found above in the imprint. consumer dispute resolution/ universal arbitration board We are not willing or obliged to participate in any dispute resolution procedure participate in the consumer arbitration board.",
+      "link": "https://ec.europa.eu/consumers/odr"
+    },
+    "section7": {
+      "title": "Liability for content",
+      "text": "As a service provider, we are responsible for our own content on these pages in accordance with Section 7 (1) TMG responsible for general laws. According to §§ 8 to 10 TMG we are not as a service provider obliged to monitor transmitted or stored third-party information or according to circumstances research that indicate illegal activity. Obligations to remove or block the use of information under the general Laws remain unaffected. However, liability in this regard is only applicable from the point in time at which Knowledge of a specific infringement possible. Upon notification of corresponding We will remove this content immediately if there is a violation of the law."
+    },
+    "section8": {
+      "title": "Liability for links",
+      "text": "Our offer contains links to external websites over which we have no influence. Therefore we cannot assume any liability for this external content. For the content of linked pages is always the responsibility of the respective provider or operator of the pages. The linked ones Pages were checked for possible legal violations at the time of linking. Unlawful Content were not recognizable at the time of linking. However, a permanent control of the content of the linked pages is one without concrete indications Violation of rights not reasonable. As soon as we become aware of legal violations, we will remove such links remove immediately."
+    },
+    "section9": {
+      "title": "Copyright",
+      "text": "The content and works on these pages created by the site operators are subject to the German Copyright. The duplication, processing, distribution and any kind of exploitation outside of the Limits of copyright require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties observed. In particular contents of third parties are marked as such. If you still go to one If you become aware of a copyright infringement, we ask that you inform us accordingly. at As soon as we become aware of legal violations, we will remove such content immediately."
+    }
   }
 }

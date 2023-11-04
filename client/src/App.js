@@ -10,6 +10,7 @@ import {
 import { useDispatch } from 'react-redux';
 import { setLang, setLangCode } from 'features/langSlice';
 import Home from 'pages/Home/Home';
+import Imprint from 'pages/Imprint/Imprint';
 
 function App() {
   const ModifiedRoute = ({ Component }) => {
@@ -41,6 +42,11 @@ function App() {
           exact
           path='/:langCode'
           element={<ModifiedRoute Component={Home} />}
+        />
+        <Route
+          exact
+          path='/:langCode/imprint'
+          element={<ModifiedRoute Component={Imprint} />}
         />
 
         {/* <Route

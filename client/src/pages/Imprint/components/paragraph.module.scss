@@ -1,0 +1,59 @@
+@import '../../../assets/scss/variables.scss';
+
+.section {
+  padding: 3rem $padding 0 $padding;
+}
+
+// Content
+.section {
+  & h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  & p {
+    margin: 0.3rem 0 0 0;
+
+    color: $text;
+    font-weight: 300;
+    font-size: 0.95rem;
+  }
+
+  & a {
+    color: $accent;
+    font-weight: 500;
+  }
+}
+
+// Desktop view
+@media all and (min-width: 1025px) {
+  .cont {
+    @include center;
+  }
+
+  .section {
+    width: $width;
+    padding: 3rem $padding2 0 $padding2;
+  }
+  
+  // Content
+  .section {
+    & h2 {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+  
+    & p {
+      margin: 0.3rem 0 0 0;
+  
+      color: $text;
+      font-weight: 300;
+      font-size: 0.95rem;
+    }
+  
+    & a {
+      color: $accent;
+      font-weight: 500;
+    }
+  }
+}
